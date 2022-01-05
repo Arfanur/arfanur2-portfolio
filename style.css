@@ -35,3 +35,34 @@ h2{
     font-weight: 700;
     border-radius: 5px;
 }
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, green);
+    border-image-slice: 1;
+}
+#baby-web-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, yellow);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
